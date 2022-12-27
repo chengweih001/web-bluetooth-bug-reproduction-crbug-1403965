@@ -1,15 +1,3 @@
----
-feature_name: Web Bluetooth / Watch Advertisements & Connect
-chrome_version: 87
-check_min_version: true
-feature_id: 5180688812736512
-icon_url: icon.png
-index: index.html
----
-
-<include src="./_includes/intro.html"></include>
-
-<button id="connectToBluetoothDevices">Connect to Bluetooth Devices</button>
 <button id="connectToBPMDevice">Connect to BPM Bluetooth Device</button>
 <button id="connectToWeightScaleDevice">Connect to Weight Scale Bluetooth Device</button>
 <button id="requestBluetoothDevice">Request Bluetooth Device</button>
@@ -18,14 +6,11 @@ index: index.html
 <script src="watch-advertisements-and-connect.js"></script>
 <script>
   if (isWebBluetoothEnabled()) {
-    document.querySelector('#connectToBluetoothDevices').addEventListener('click', function () {
-      onConnectToBluetoothDevicesButtonClick();
-    });
     document.querySelector('#connectToBPMDevice').addEventListener('click', function () {
-      onConnectToBPMButtonClick();
+      onConnectToDeviceButtonClick('1810A0');
     });
     document.querySelector('#connectToWeightScaleDevice').addEventListener('click', function () {
-      onConnectToWeightScaleButtonClick();
+      onConnectToDeviceButtonClick('11255B');
     });
     document.querySelector('#requestBluetoothDevice').addEventListener('click', function () {
       onRequestBluetoothDeviceButtonClick();
