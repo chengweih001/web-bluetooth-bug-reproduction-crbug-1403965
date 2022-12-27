@@ -7,29 +7,34 @@ icon_url: icon.png
 index: index.html
 ---
 
-{% include intro.html %}
-
-<p>This sample illustrates the use of the Web Bluetooth API to check if a
-permitted Bluetooth device is in range of the system before attempting to
-connect to the Bluetooth device. You may want to check out the <a
-href="watch-advertisements-and-connect-async-await.html">Watch Advertisements & Connect (Async Await)</a> sample.</p>
+<include src="./_includes/intro.html"></include>
 
 <button id="connectToBluetoothDevices">Connect to Bluetooth Devices</button>
+<button id="connectToBPMDevice">Connect to BPM Bluetooth Device</button>
+<button id="connectToWeightScaleDevice">Connect to Weight Scale Bluetooth Device</button>
 <button id="requestBluetoothDevice">Request Bluetooth Device</button>
 
-{% include output_helper.html %}
-
-{% include js_snippet.html filename='watch-advertisements-and-connect.js' %}
-
-{% include utils.html %}
-
+<script src="log-helper.js"></script>
+<script src="watch-advertisements-and-connect.js"></script>
 <script>
   if (isWebBluetoothEnabled()) {
-    document.querySelector('#connectToBluetoothDevices').addEventListener('click', function() {
-        onConnectToBluetoothDevicesButtonClick();
+    document.querySelector('#connectToBluetoothDevices').addEventListener('click', function () {
+      onConnectToBluetoothDevicesButtonClick();
     });
-    document.querySelector('#requestBluetoothDevice').addEventListener('click', function() {
-        onRequestBluetoothDeviceButtonClick();
+    document.querySelector('#connectToBPMDevice').addEventListener('click', function () {
+      onConnectToBPMButtonClick();
+    });
+    document.querySelector('#connectToWeightScaleDevice').addEventListener('click', function () {
+      onConnectToWeightScaleButtonClick();
+    });
+    document.querySelector('#requestBluetoothDevice').addEventListener('click', function () {
+      onRequestBluetoothDeviceButtonClick();
     });
   }
 </script>
+
+<h3>Live Output</h3>
+<div id="output" class="output">
+  <div id="status"></div>
+  <pre id="log"></pre>
+</div>

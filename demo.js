@@ -1,16 +1,14 @@
 'use strict';
 
-function Debug() {
+function Debug() {}
 
-}
-
-Debug.prototype.log = function() {
+Debug.prototype.log = function () {
   var paragraphElement = document.createElement('p');
   paragraphElement.textContent = Array.prototype.join.call(arguments, '');
   document.querySelector('.js-log').appendChild(paragraphElement);
 };
 
-window.addEventListener('load', function() {
+window.addEventListener('load', function () {
   var logDiv = document.createElement('div');
   logDiv.classList.add('js-log');
 
