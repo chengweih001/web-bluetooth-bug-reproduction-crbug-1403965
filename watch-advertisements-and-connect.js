@@ -19,10 +19,10 @@ function onConnectToDeviceButtonClick(deviceName) {
     .then((devices) => {
       const device = devices.find((pairedDevice) => pairedDevice.name === deviceName);
       if (device) {
-        log('found an authorized weight scale, attempting connection...');
-        device.watchAdvertisements().then(device.gatt.connect().then(() => console.log('connected')));
+        log('found an authorized device, attempting connection...');
+        device.gatt.connect().then(() => console.log('connected'));
       } else {
-        log("Argh! no authorized weight scale was found, please authorize it using the 'request device' button");
+        log("Argh! no authorized device was found, please authorize it using the 'request device' button");
       }
     })
     .catch((error) => {
