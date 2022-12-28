@@ -17,17 +17,21 @@ function displayAuthorizedDevicesConnectButtons() {
 
 function onRequestBluetoothDeviceButtonClick() {
   log('Requesting any Bluetooth device...');
-  navigator.bluetooth
-    .requestDevice({
-      acceptAllDevices: true,
-    })
-    .then((device) => {
-      log('> Requested ' + device.name);
-      addDeviceConnectButton(device.name);
-    })
-    .catch((error) => {
-      log('Argh! ' + error);
-    });
+  navigator.bluetooth.getDevices().then((authorizedDevices) => {
+    navigator.bluetooth
+      .requestDevice({
+        acceptAllDevices: true,
+      })
+      .then((device) => {
+        log('> Requested ' + device.name);
+        if (!authorizedDevices.find((authorizedDevice) => authorizedDevice.name === device.name)) {
+          addDeviceConnectButton(device.name);
+        }
+      })
+      .catch((error) => {
+        log('Argh! ' + error);
+      });
+  });
 }
 
 function onConnectToDeviceButtonClick(deviceName) {
@@ -37,8 +41,14 @@ function onConnectToDeviceButtonClick(deviceName) {
     .then((devices) => {
       const device = devices.find((pairedDevice) => pairedDevice.name === deviceName);
       if (device) {
-        log(`found an authorized device name ${deviceName}, attempting connection...`);
-        device.gatt.connect().then(() => log(`Connected successfully to ${deviceName}`));
+        log(`found an authorized device named ${deviceName}, attempting connection...`);
+        device.gatt
+          .connect()
+          .then(() => log(`Connected successfully to ${deviceName}`))
+          .catch((err) => {
+            log('Argh! ' + err.message);
+            throw err;
+          });
       } else {
         log(`Argh! no authorized device was found with this named ${deviceName}`);
       }
