@@ -1,25 +1,19 @@
-<button id="connectToBPMDevice">Connect to BPM Bluetooth Device</button>
-<button id="connectToWeightScaleDevice">Connect to Weight Scale Bluetooth Device</button>
 <button id="requestBluetoothDevice">Request Bluetooth Device</button>
+<div id="connectButtons"></div>
+
+<h3>Live Output</h3>
+<pre id="log"></pre>
+<button id="clearLogs">Clear logs</button>
 
 <script src="log-helper.js"></script>
 <script src="watch-advertisements-and-connect.js"></script>
 <script>
   if (isWebBluetoothEnabled()) {
-    document.querySelector('#connectToBPMDevice').addEventListener('click', function () {
-      onConnectToDeviceButtonClick('1810A0');
-    });
-    document.querySelector('#connectToWeightScaleDevice').addEventListener('click', function () {
-      onConnectToDeviceButtonClick('11255B');
-    });
     document.querySelector('#requestBluetoothDevice').addEventListener('click', function () {
       onRequestBluetoothDeviceButtonClick();
     });
+    document.querySelector('#clearLogs').addEventListener('click', function() {
+      clearLog()
+    })
   }
 </script>
-
-<h3>Live Output</h3>
-<div id="output" class="output">
-  <div id="status"></div>
-  <pre id="log"></pre>
-</div>
