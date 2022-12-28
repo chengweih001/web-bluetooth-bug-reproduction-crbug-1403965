@@ -1,0 +1,80 @@
+2022-12-28T13:12:10.483572Z ERR kernel: [77166.422650] Bluetooth: hci0: advertising data len corrected
+2022-12-28T13:12:10.892589Z ERR kernel: [77166.630574] Bluetooth: hci0: advertising data len corrected
+2022-12-28T13:12:11.100585Z ERR kernel: [77167.039635] Bluetooth: hci0: advertising data len corrected
+2022-12-28T13:12:11.516563Z ERR kernel: [77167.247645] Bluetooth: hci0: advertising data len corrected
+2022-12-28T13:12:11.718530Z ERR kernel: [77167.663575] Bluetooth: hci0: advertising data len corrected
+2022-12-28T13:12:11.914526Z ERR kernel: [77167.865587] Bluetooth: hci0: advertising data len corrected
+2022-12-28T13:12:12.127538Z ERR kernel: [77168.061541] Bluetooth: hci0: advertising data len corrected
+2022-12-28T13:12:12.323438Z ERR kernel: [77168.274549] Bluetooth: hci0: advertising data len corrected
+2022-12-28T13:12:16.613731Z ERR kernel: [77168.469565] Bluetooth: hci0: advertising data len corrected
+2022-12-28T13:12:17.025594Z ERR kernel: [77172.760522] Bluetooth: hci0: advertising data len corrected
+2022-12-28T13:12:18.253570Z ERR kernel: [77173.172601] Bluetooth: hci0: advertising data len corrected
+2022-12-28T13:12:18.461557Z ERR kernel: [77174.400537] Bluetooth: hci0: advertising data len corrected
+2022-12-28T13:12:19.280527Z ERR kernel: [77174.608603] Bluetooth: hci0: advertising data len corrected
+2022-12-28T13:12:19.483597Z ERR kernel: [77175.427572] Bluetooth: hci0: advertising data len corrected
+2022-12-28T13:12:19.685567Z ERR kernel: [77175.630626] Bluetooth: hci0: advertising data len corrected
+2022-12-28T13:12:20.098562Z ERR kernel: [77175.832582] Bluetooth: hci0: advertising data len corrected
+2022-12-28T13:12:20.302554Z ERR kernel: [77176.245566] Bluetooth: hci0: advertising data len corrected
+2022-12-28T13:12:20.502585Z ERR kernel: [77176.449590] Bluetooth: hci0: advertising data len corrected
+2022-12-28T13:12:23.456581Z NOTICE temp_logger[6243]:  x86_pkg_temp:36C INT3400_Thermal:20C TSR0:26C TSR1:30C TSR2:26C TCPU:37C iwlwifi_1:29C PL1:15.000W
+2022-12-28T13:12:24.554574Z ERR kernel: [77176.649581] Bluetooth: hci0: advertising data len corrected
+2022-12-28T13:12:24.554620Z INFO kernel: [77180.701138] Bluetooth: hci_connect_le_scan() hci0: Skipping le scan before connect
+2022-12-28T13:12:34.632092Z INFO kernel: [77190.778699] Bluetooth: hci_connect_le_scan() hci0: Skipping le scan before connect
+2022-12-28T13:12:55.048739Z ERR kernel: [77211.195193] Bluetooth: __hci_cmd_sync_status_sk() hci0: Opcode 0x2043 failed: -110
+2022-12-28T13:12:55.048787Z ERR kernel: [77211.195207] Bluetooth: create_le_conn_complete() hci0: request failed to create LE connection: err -110
+2022-12-28T13:12:56.749618Z INFO kernel: [77212.896082] Bluetooth: hci_connect_le_scan() hci0: Skipping le scan before connect
+2022-12-28T13:13:17.064618Z ERR kernel: [77233.211186] Bluetooth: __hci_cmd_sync_status_sk() hci0: Opcode 0x2043 failed: -110
+2022-12-28T13:13:17.064668Z ERR kernel: [77233.211200] Bluetooth: create_le_conn_complete() hci0: request failed to create LE connection: err -110
+2022-12-28T13:13:18.141579Z INFO kernel: [77234.288224] Bluetooth: hci_connect_le_scan() hci0: Skipping le scan before connect
+2022-12-28T13:13:23.505667Z NOTICE temp_logger[6344]:  x86_pkg_temp:34C INT3400_Thermal:20C TSR0:27C TSR1:29C TSR2:26C TCPU:34C iwlwifi_1:30C PL1:15.000W
+2022-12-28T13:13:38.568658Z ERR kernel: [77254.715182] Bluetooth: __hci_cmd_sync_status_sk() hci0: Opcode 0x2043 failed: -110
+2022-12-28T13:13:38.568702Z ERR kernel: [77254.715196] Bluetooth: create_le_conn_complete() hci0: request failed to create LE connection: err -110
+2022-12-28T13:13:39.404871Z INFO kernel: [77255.552047] Bluetooth: hci_connect_le_scan() hci0: Skipping le scan before connect
+2022-12-28T13:13:59.560649Z ERR kernel: [77275.707099] Bluetooth: __hci_cmd_sync_status_sk() hci0: Opcode 0x2043 failed: -110
+2022-12-28T13:13:59.560694Z ERR kernel: [77275.707112] Bluetooth: create_le_conn_complete() hci0: request failed to create LE connection: err -110
+2022-12-28T13:14:00.576998Z INFO kernel: [77276.724294] Bluetooth: hci_connect_le_scan() hci0: Skipping le scan before connect
+2022-12-28T13:14:21.064825Z ERR kernel: [77297.211098] Bluetooth: __hci_cmd_sync_status_sk() hci0: Opcode 0x2043 failed: -110
+2022-12-28T13:14:21.064869Z ERR kernel: [77297.211111] Bluetooth: create_le_conn_complete() hci0: request failed to create LE connection: err -110
+2022-12-28T13:14:22.249559Z INFO kernel: [77298.396745] Bluetooth: hci_connect_le_scan() hci0: Skipping le scan before connect
+2022-12-28T13:14:23.564119Z NOTICE temp_logger[6435]:  x86_pkg_temp:33C INT3400_Thermal:20C TSR0:26C TSR1:28C TSR2:27C TCPU:33C iwlwifi_1:30C PL1:15.000W
+2022-12-28T13:14:42.569176Z ERR kernel: [77318.715223] Bluetooth: __hci_cmd_sync_status_sk() hci0: Opcode 0x2043 failed: -110
+2022-12-28T13:14:42.569220Z ERR kernel: [77318.715237] Bluetooth: create_le_conn_complete() hci0: request failed to create LE connection: err -110
+2022-12-28T13:14:43.399564Z INFO kernel: [77319.546635] Bluetooth: hci_connect_le_scan() hci0: Skipping le scan before connect
+2022-12-28T13:15:03.560613Z ERR kernel: [77339.707082] Bluetooth: __hci_cmd_sync_status_sk() hci0: Opcode 0x2043 failed: -110
+2022-12-28T13:15:03.560652Z ERR kernel: [77339.707096] Bluetooth: create_le_conn_complete() hci0: request failed to create LE connection: err -110
+2022-12-28T13:15:04.400687Z INFO kernel: [77340.547986] Bluetooth: hci_connect_le_scan() hci0: Skipping le scan before connect
+2022-12-28T13:15:23.595423Z NOTICE temp_logger[6521]:  x86_pkg_temp:32C INT3400_Thermal:20C TSR0:26C TSR1:28C TSR2:26C TCPU:36C iwlwifi_1:30C PL1:15.000W
+2022-12-28T13:15:24.552623Z ERR kernel: [77360.699218] Bluetooth: __hci_cmd_sync_status_sk() hci0: Opcode 0x2043 failed: -110
+2022-12-28T13:15:24.552665Z ERR kernel: [77360.699232] Bluetooth: create_le_conn_complete() hci0: request failed to create LE connection: err -110
+2022-12-28T13:15:25.217595Z INFO kernel: [77361.364029] Bluetooth: hci_connect_le_scan() hci0: Skipping le scan before connect
+2022-12-28T13:15:45.544617Z ERR kernel: [77381.691185] Bluetooth: __hci_cmd_sync_status_sk() hci0: Opcode 0x2043 failed: -110
+2022-12-28T13:15:45.544666Z ERR kernel: [77381.691199] Bluetooth: create_le_conn_complete() hci0: request failed to create LE connection: err -110
+2022-12-28T13:15:46.441660Z INFO kernel: [77382.588929] Bluetooth: hci_connect_le_scan() hci0: Skipping le scan before connect
+2022-12-28T13:16:06.536639Z ERR kernel: [77402.683170] Bluetooth: __hci_cmd_sync_status_sk() hci0: Opcode 0x2043 failed: -110
+2022-12-28T13:16:06.536686Z ERR kernel: [77402.683184] Bluetooth: create_le_conn_complete() hci0: request failed to create LE connection: err -110
+2022-12-28T13:16:07.801571Z INFO kernel: [77403.948827] Bluetooth: hci_connect_le_scan() hci0: Skipping le scan before connect
+2022-12-28T13:16:23.652886Z NOTICE temp_logger[6618]:  x86_pkg_temp:32C INT3400_Thermal:20C TSR0:26C TSR1:28C TSR2:26C TCPU:33C iwlwifi_1:30C PL1:15.000W
+2022-12-28T13:16:28.040613Z ERR kernel: [77424.187309] Bluetooth: __hci_cmd_sync_status_sk() hci0: Opcode 0x2043 failed: -110
+2022-12-28T13:16:28.040656Z ERR kernel: [77424.187323] Bluetooth: create_le_conn_complete() hci0: request failed to create LE connection: err -110
+2022-12-28T13:16:28.759556Z INFO kernel: [77424.906721] Bluetooth: hci_connect_le_scan() hci0: Skipping le scan before connect
+2022-12-28T13:16:49.032654Z ERR kernel: [77445.179206] Bluetooth: __hci_cmd_sync_status_sk() hci0: Opcode 0x2043 failed: -110
+2022-12-28T13:16:49.032702Z ERR kernel: [77445.179219] Bluetooth: create_le_conn_complete() hci0: request failed to create LE connection: err -110
+2022-12-28T13:16:50.374347Z INFO kernel: [77446.520395] Bluetooth: hci_connect_le_scan() hci0: Skipping le scan before connect
+2022-12-28T13:16:50.609587Z ERR kernel: [77446.756572] Bluetooth: __hci_cmd_sync_status_sk() hci0: Opcode 0x2043 failed: -16
+2022-12-28T13:16:50.609632Z ERR kernel: [77446.756584] Bluetooth: create_le_conn_complete() hci0: request failed to create LE connection: err -16
+2022-12-28T13:16:52.960686Z INFO kernel: [77449.107251] Bluetooth: hci_connect_le_scan() hci0: Skipping le scan before connect
+2022-12-28T13:16:52.962042Z ERR kernel: [77449.108495] Bluetooth: __hci_cmd_sync_status_sk() hci0: Opcode 0x2043 failed: -16
+2022-12-28T13:16:52.962089Z ERR kernel: [77449.108505] Bluetooth: create_le_conn_complete() hci0: request failed to create LE connection: err -16
+2022-12-28T13:16:56.359826Z INFO kernel: [77452.505978] Bluetooth: hci_connect_le_scan() hci0: Skipping le scan before connect
+2022-12-28T13:16:56.593570Z ERR kernel: [77452.740620] Bluetooth: __hci_cmd_sync_status_sk() hci0: Opcode 0x2043 failed: -16
+2022-12-28T13:16:56.593615Z ERR kernel: [77452.740633] Bluetooth: create_le_conn_complete() hci0: request failed to create LE connection: err -16
+2022-12-28T13:17:06.641574Z INFO kernel: [77462.788907] Bluetooth: hci_connect_le_scan() hci0: Skipping le scan before connect
+2022-12-28T13:17:06.873559Z ERR kernel: [77463.020610] Bluetooth: __hci_cmd_sync_status_sk() hci0: Opcode 0x2043 failed: -16
+2022-12-28T13:17:06.873597Z ERR kernel: [77463.020622] Bluetooth: create_le_conn_complete() hci0: request failed to create LE connection: err -16
+2022-12-28T13:17:08.263533Z INFO kernel: [77464.410394] Bluetooth: hci_connect_le_scan() hci0: Skipping le scan before connect
+2022-12-28T13:17:08.264562Z ERR kernel: [77464.411590] Bluetooth: __hci_cmd_sync_status_sk() hci0: Opcode 0x2043 failed: -16
+2022-12-28T13:17:08.264591Z ERR kernel: [77464.411606] Bluetooth: create_le_conn_complete() hci0: request failed to create LE connection: err -16
+2022-12-28T13:17:08.935624Z INFO kernel: [77465.082865] Bluetooth: hci_connect_le_scan() hci0: Skipping le scan before connect
+2022-12-28T13:17:08.937061Z ERR kernel: [77465.083615] Bluetooth: __hci_cmd_sync_status_sk() hci0: Opcode 0x2043 failed: -16
+2022-12-28T13:17:08.937097Z ERR kernel: [77465.083627] Bluetooth: create_le_conn_complete() hci0: request failed to create LE connection: err -16 
+2022-12-28T13:17:23.711111Z NOTICE temp_logger[6718]:  x86_pkg_temp:32C INT3400_Thermal:20C TSR0:26C TSR1:28C TSR2:26C TCPU:33C iwlwifi_1:30C PL1:15.000W

@@ -1,0 +1,62 @@
+2022-12-28T13:12:26.069781Z ERROR chrome[31233:31233]: [connection_holder.h(292)] Instance for arc.mojom.BluetoothInstance::OnServiceChanged version mismatch. Expected 20 got 17
+2022-12-28T13:12:26.080023Z ERROR chrome[31233:31233]: [connection_holder.h(292)] Instance for arc.mojom.BluetoothInstance::OnServiceChanged version mismatch. Expected 20 got 17
+2022-12-28T13:12:26.081659Z ERROR chrome[31233:31233]: [connection_holder.h(292)] Instance for arc.mojom.BluetoothInstance::OnServiceChanged version mismatch. Expected 20 got 17
+2022-12-28T13:12:26.082177Z ERROR chrome[31233:31233]: [connection_holder.h(292)] Instance for arc.mojom.BluetoothInstance::OnServiceChanged version mismatch. Expected 20 got 17
+2022-12-28T13:12:26.083424Z ERROR chrome[31233:31233]: [connection_holder.h(292)] Instance for arc.mojom.BluetoothInstance::OnServiceChanged version mismatch. Expected 20 got 17
+2022-12-28T13:12:26.084267Z ERROR chrome[31233:31233]: [connection_holder.h(292)] Instance for arc.mojom.BluetoothInstance::OnServiceChanged version mismatch. Expected 20 got 17
+2022-12-28T13:12:26.086948Z ERROR chrome[31233:31233]: [connection_holder.h(292)] Instance for arc.mojom.BluetoothInstance::OnServiceChanged version mismatch. Expected 20 got 17
+2022-12-28T13:12:26.088004Z ERROR chrome[31233:31233]: [connection_holder.h(292)] Instance for arc.mojom.BluetoothInstance::OnServiceChanged version mismatch. Expected 20 got 17
+2022-12-28T13:12:26.089511Z ERROR chrome[31233:31233]: [connection_holder.h(292)] Instance for arc.mojom.BluetoothInstance::OnServiceChanged version mismatch. Expected 20 got 17
+2022-12-28T13:12:26.090656Z ERROR chrome[31233:31233]: [connection_holder.h(292)] Instance for arc.mojom.BluetoothInstance::OnServiceChanged version mismatch. Expected 20 got 17
+2022-12-28T13:12:26.091334Z ERROR chrome[31233:31233]: [connection_holder.h(292)] Instance for arc.mojom.BluetoothInstance::OnServiceChanged version mismatch. Expected 20 got 17
+2022-12-28T13:12:26.092016Z ERROR chrome[31233:31233]: [connection_holder.h(292)] Instance for arc.mojom.BluetoothInstance::OnServiceChanged version mismatch. Expected 20 got 17
+2022-12-28T13:12:27.700999Z ERROR chrome[31233:31233]: [connection_holder.h(292)] Instance for arc.mojom.BluetoothInstance::OnServiceChanged version mismatch. Expected 20 got 17
+2022-12-28T13:12:27.701097Z ERROR chrome[31233:31233]: [connection_holder.h(292)] Instance for arc.mojom.BluetoothInstance::OnServiceChanged version mismatch. Expected 20 got 17
+2022-12-28T13:12:27.701208Z ERROR chrome[31233:31233]: [connection_holder.h(292)] Instance for arc.mojom.BluetoothInstance::OnServiceChanged version mismatch. Expected 20 got 17
+2022-12-28T13:12:27.720622Z ERROR chrome[31233:31233]: [connection_holder.h(292)] Instance for arc.mojom.BluetoothInstance::OnServiceChanged version mismatch. Expected 20 got 17
+2022-12-28T13:12:27.720829Z ERROR chrome[31233:31233]: [connection_holder.h(292)] Instance for arc.mojom.BluetoothInstance::OnServiceChanged version mismatch. Expected 20 got 17
+2022-12-28T13:12:27.720935Z ERROR chrome[31233:31233]: [connection_holder.h(292)] Instance for arc.mojom.BluetoothInstance::OnServiceChanged version mismatch. Expected 20 got 17
+2022-12-28T13:12:27.721083Z ERROR chrome[31233:31233]: [connection_holder.h(292)] Instance for arc.mojom.BluetoothInstance::OnServiceChanged version mismatch. Expected 20 got 17
+2022-12-28T13:12:27.721210Z ERROR chrome[31233:31233]: [connection_holder.h(292)] Instance for arc.mojom.BluetoothInstance::OnServiceChanged version mismatch. Expected 20 got 17
+2022-12-28T13:12:27.721323Z ERROR chrome[31233:31233]: [connection_holder.h(292)] Instance for arc.mojom.BluetoothInstance::OnServiceChanged version mismatch. Expected 20 got 17
+2022-12-28T13:12:27.721376Z ERROR chrome[31233:31233]: [connection_holder.h(292)] Instance for arc.mojom.BluetoothInstance::OnServiceChanged version mismatch. Expected 20 got 17
+2022-12-28T13:12:27.721449Z ERROR chrome[31233:31233]: [connection_holder.h(292)] Instance for arc.mojom.BluetoothInstance::OnServiceChanged version mismatch. Expected 20 got 17
+2022-12-28T13:12:27.721505Z ERROR chrome[31233:31233]: [connection_holder.h(292)] Instance for arc.mojom.BluetoothInstance::OnServiceChanged version mismatch. Expected 20 got 17
+2022-12-28T13:12:55.049670Z ERROR chrome[31233:31233]: [device_event_log_impl.cc(215)] [14:12:55.049] Bluetooth: bluetooth_device_bluez.cc:1118 /org/bluez/hci0/dev_94_E3_6D_6D_E7_3B: Failed to connect device: org.bluez.Error.Failed: le-connection-abort-by-local
+2022-12-28T13:13:17.065584Z ERROR chrome[31233:31233]: [device_event_log_impl.cc(215)] [14:13:17.065] Bluetooth: bluetooth_device_bluez.cc:1118 /org/bluez/hci0/dev_94_E3_6D_6D_E7_3B: Failed to connect device: org.bluez.Error.Failed: le-connection-abort-by-local
+2022-12-28T13:13:24.855558Z WARNING chrome[31233:31233]: [cups_printers_manager.cc(166)] Attempting to retrieve printers when UserPrintersAllowed is set to false
+2022-12-28T13:13:24.855677Z WARNING chrome[31233:31233]: [cups_printers_manager.cc(166)] Attempting to retrieve printers when UserPrintersAllowed is set to false
+2022-12-28T13:13:24.856124Z WARNING chrome[31233:31233]: [cups_printers_manager.cc(166)] Attempting to retrieve printers when UserPrintersAllowed is set to false
+2022-12-28T13:13:24.856184Z WARNING chrome[31233:31233]: [cups_printers_manager.cc(166)] Attempting to retrieve printers when UserPrintersAllowed is set to false
+2022-12-28T13:13:24.958640Z WARNING chrome[31233:31233]: [cups_printers_manager.cc(166)] Attempting to retrieve printers when UserPrintersAllowed is set to false
+2022-12-28T13:13:24.958753Z WARNING chrome[31233:31233]: [cups_printers_manager.cc(166)] Attempting to retrieve printers when UserPrintersAllowed is set to false
+2022-12-28T13:13:24.959142Z WARNING chrome[31233:31233]: [cups_printers_manager.cc(166)] Attempting to retrieve printers when UserPrintersAllowed is set to false
+2022-12-28T13:13:24.959195Z WARNING chrome[31233:31233]: [cups_printers_manager.cc(166)] Attempting to retrieve printers when UserPrintersAllowed is set to false
+2022-12-28T13:13:38.569939Z ERROR chrome[31233:31233]: [device_event_log_impl.cc(215)] [14:13:38.569] Bluetooth: bluetooth_device_bluez.cc:1118 /org/bluez/hci0/dev_94_E3_6D_6D_E7_3B: Failed to connect device: org.bluez.Error.Failed: le-connection-abort-by-local
+2022-12-28T13:13:59.561588Z ERROR chrome[31233:31233]: [device_event_log_impl.cc(215)] [14:13:59.561] Bluetooth: bluetooth_device_bluez.cc:1118 /org/bluez/hci0/dev_94_E3_6D_6D_E7_3B: Failed to connect device: org.bluez.Error.Failed: le-connection-abort-by-local
+2022-12-28T13:14:21.065582Z ERROR chrome[31233:31233]: [device_event_log_impl.cc(215)] [14:14:21.065] Bluetooth: bluetooth_device_bluez.cc:1118 /org/bluez/hci0/dev_94_E3_6D_6D_E7_3B: Failed to connect device: org.bluez.Error.Failed: le-connection-abort-by-local
+2022-12-28T13:14:28.446983Z WARNING chrome[31233:31233]: [cups_printers_manager.cc(166)] Attempting to retrieve printers when UserPrintersAllowed is set to false
+2022-12-28T13:14:28.447098Z WARNING chrome[31233:31233]: [cups_printers_manager.cc(166)] Attempting to retrieve printers when UserPrintersAllowed is set to false
+2022-12-28T13:14:28.447326Z WARNING chrome[31233:31233]: [cups_printers_manager.cc(166)] Attempting to retrieve printers when UserPrintersAllowed is set to false
+2022-12-28T13:14:28.447392Z WARNING chrome[31233:31233]: [cups_printers_manager.cc(166)] Attempting to retrieve printers when UserPrintersAllowed is set to false
+2022-12-28T13:14:28.547831Z WARNING chrome[31233:31233]: [cups_printers_manager.cc(166)] Attempting to retrieve printers when UserPrintersAllowed is set to false
+2022-12-28T13:14:28.547915Z WARNING chrome[31233:31233]: [cups_printers_manager.cc(166)] Attempting to retrieve printers when UserPrintersAllowed is set to false
+2022-12-28T13:14:28.548106Z WARNING chrome[31233:31233]: [cups_printers_manager.cc(166)] Attempting to retrieve printers when UserPrintersAllowed is set to false
+2022-12-28T13:14:28.548149Z WARNING chrome[31233:31233]: [cups_printers_manager.cc(166)] Attempting to retrieve printers when UserPrintersAllowed is set to false
+2022-12-28T13:14:28.548569Z WARNING chrome[31233:31233]: [cups_printers_manager.cc(166)] Attempting to retrieve printers when UserPrintersAllowed is set to false
+2022-12-28T13:14:28.548640Z WARNING chrome[31233:31233]: [cups_printers_manager.cc(166)] Attempting to retrieve printers when UserPrintersAllowed is set to false
+2022-12-28T13:14:28.548825Z WARNING chrome[31233:31233]: [cups_printers_manager.cc(166)] Attempting to retrieve printers when UserPrintersAllowed is set to false
+2022-12-28T13:14:28.548868Z WARNING chrome[31233:31233]: [cups_printers_manager.cc(166)] Attempting to retrieve printers when UserPrintersAllowed is set to false
+2022-12-28T13:14:42.569945Z ERROR chrome[31233:31233]: [device_event_log_impl.cc(215)] [14:14:42.569] Bluetooth: bluetooth_device_bluez.cc:1118 /org/bluez/hci0/dev_94_E3_6D_6D_E7_3B: Failed to connect device: org.bluez.Error.Failed: le-connection-abort-by-local
+2022-12-28T13:15:03.561491Z ERROR chrome[31233:31233]: [device_event_log_impl.cc(215)] [14:15:03.561] Bluetooth: bluetooth_device_bluez.cc:1118 /org/bluez/hci0/dev_94_E3_6D_6D_E7_3B: Failed to connect device: org.bluez.Error.Failed: le-connection-abort-by-local
+2022-12-28T13:15:24.554062Z ERROR chrome[31233:31233]: [device_event_log_impl.cc(215)] [14:15:24.554] Bluetooth: bluetooth_device_bluez.cc:1118 /org/bluez/hci0/dev_94_E3_6D_6D_E7_3B: Failed to connect device: org.bluez.Error.Failed: le-connection-abort-by-local
+2022-12-28T13:15:45.545731Z ERROR chrome[31233:31233]: [device_event_log_impl.cc(215)] [14:15:45.545] Bluetooth: bluetooth_device_bluez.cc:1118 /org/bluez/hci0/dev_94_E3_6D_6D_E7_3B: Failed to connect device: org.bluez.Error.Failed: le-connection-abort-by-local
+2022-12-28T13:16:06.537640Z ERROR chrome[31233:31233]: [device_event_log_impl.cc(215)] [14:16:06.537] Bluetooth: bluetooth_device_bluez.cc:1118 /org/bluez/hci0/dev_94_E3_6D_6D_E7_3B: Failed to connect device: org.bluez.Error.Failed: le-connection-abort-by-local
+2022-12-28T13:16:28.041933Z ERROR chrome[31233:31233]: [device_event_log_impl.cc(215)] [14:16:28.041] Bluetooth: bluetooth_device_bluez.cc:1118 /org/bluez/hci0/dev_94_E3_6D_6D_E7_3B: Failed to connect device: org.bluez.Error.Failed: le-connection-abort-by-local
+2022-12-28T13:16:49.033576Z ERROR chrome[31233:31233]: [device_event_log_impl.cc(215)] [14:16:49.033] Bluetooth: bluetooth_device_bluez.cc:1118 /org/bluez/hci0/dev_94_E3_6D_6D_E7_3B: Failed to connect device: org.bluez.Error.Failed: le-connection-abort-by-local
+2022-12-28T13:16:50.610625Z ERROR chrome[31233:31233]: [device_event_log_impl.cc(215)] [14:16:50.610] Bluetooth: bluetooth_device_bluez.cc:1118 /org/bluez/hci0/dev_94_E3_6D_6D_E7_3B: Failed to connect device: org.bluez.Error.Failed: le-connection-abort-by-local
+2022-12-28T13:16:52.963057Z ERROR chrome[31233:31233]: [device_event_log_impl.cc(215)] [14:16:52.962] Bluetooth: bluetooth_device_bluez.cc:1118 /org/bluez/hci0/dev_94_E3_6D_6D_E7_3B: Failed to connect device: org.bluez.Error.Failed: le-connection-abort-by-local
+2022-12-28T13:16:56.594797Z ERROR chrome[31233:31233]: [device_event_log_impl.cc(215)] [14:16:56.594] Bluetooth: bluetooth_device_bluez.cc:1118 /org/bluez/hci0/dev_94_E3_6D_6D_E7_3B: Failed to connect device: org.bluez.Error.Failed: le-connection-abort-by-local
+2022-12-28T13:17:06.874968Z ERROR chrome[31233:31233]: [device_event_log_impl.cc(215)] [14:17:06.874] Bluetooth: bluetooth_device_bluez.cc:1118 /org/bluez/hci0/dev_CC_60_CB_A1_B2_07: Failed to connect device: org.bluez.Error.Failed: le-connection-abort-by-local
+2022-12-28T13:17:08.264785Z ERROR chrome[31233:31233]: [device_event_log_impl.cc(215)] [14:17:08.264] Bluetooth: bluetooth_device_bluez.cc:1118 /org/bluez/hci0/dev_CC_60_CB_A1_B2_07: Failed to connect device: org.bluez.Error.Failed: le-connection-abort-by-local 
+2022-12-28T13:17:08.937561Z ERROR chrome[31233:31233]: [device_event_log_impl.cc(215)] [14:17:08.937] Bluetooth: bluetooth_device_bluez.cc:1118 /org/bluez/hci0/dev_CC_60_CB_A1_B2_07: Failed to connect device: org.bluez.Error.Failed: le-connection-abort-by-local
