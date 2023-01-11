@@ -1,8 +1,21 @@
+function getTimestampInSeconds () {
+  return Math.floor(Date.now() / 1000)
+}
+
 function addDeviceConnectButton(deviceName) {
   const connectButton = document.createElement('button');
   connectButton.textContent = deviceName;
   connectButton.addEventListener('click', function () {
-    onConnectToDeviceButtonClick(deviceName);
+    onConnectToDeviceButtonClick(deviceName, false, getTimestampInSeconds());
+  });
+  document.querySelector('#connectButtons').appendChild(connectButton);
+}
+
+function addDeviceKeepTryingConnectButton(deviceName) {
+  const connectButton = document.createElement('button');
+  connectButton.textContent = deviceName + "[KeepTrying]";
+  connectButton.addEventListener('click', function () {
+    onConnectToDeviceButtonClick(deviceName, true, getTimestampInSeconds());
   });
   document.querySelector('#connectButtons').appendChild(connectButton);
 }
@@ -11,6 +24,7 @@ function displayAuthorizedDevicesConnectButtons() {
   navigator.bluetooth.getDevices().then((devices) => {
     devices.forEach((device) => {
       addDeviceConnectButton(device.name);
+      addDeviceKeepTryingConnectButton(device.name);
     });
   });
 }
@@ -26,6 +40,7 @@ function onRequestBluetoothDeviceButtonClick() {
         log('> Requested ' + device.name);
         if (!authorizedDevices.find((authorizedDevice) => authorizedDevice.name === device.name)) {
           addDeviceConnectButton(device.name);
+          addDeviceKeepTryingConnectButton(device.name);
         }
       })
       .catch((error) => {
@@ -34,7 +49,9 @@ function onRequestBluetoothDeviceButtonClick() {
   });
 }
 
-function onConnectToDeviceButtonClick(deviceName) {
+
+
+function onConnectToDeviceButtonClick(deviceName, keepTrying, calledAtSeconds) {
   log('Getting existing permitted Bluetooth devices...');
   navigator.bluetooth
     .getDevices()
@@ -47,7 +64,14 @@ function onConnectToDeviceButtonClick(deviceName) {
           .then(() => log(`Connected successfully to ${deviceName}`))
           .catch((err) => {
             log('Argh! ' + err.message);
-            throw err;
+            const diffSeconds = getTimestampInSeconds() - calledAtSeconds;
+            if (diffSeconds > 5 && keepTrying) {
+              log(`keep trying (diffSeconds:${diffSeconds}).`);
+              onConnectToDeviceButtonClick(deviceName, keepTrying, getTimestampInSeconds());
+            } else {
+              log(`to throw error (diffSeconds:${diffSeconds})! (keepTrying:${keepTrying})`);
+              throw err;
+            }
           });
       } else {
         log(`Argh! no authorized device was found with this named ${deviceName}`);
