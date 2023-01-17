@@ -2,6 +2,11 @@ function getTimestampInSeconds () {
   return Math.floor(Date.now() / 1000)
 }
 
+function getBadStateThreshold() {
+  const val = document.querySelector('#badStateThreshold').value;
+  return val;
+}
+
 function addDeviceConnectButton(deviceName) {
   const connectButton = document.createElement('button');
   connectButton.textContent = deviceName;
@@ -65,7 +70,7 @@ function onConnectToDeviceButtonClick(deviceName, keepTrying, calledAtSeconds) {
           .catch((err) => {
             log('Argh! ' + err.message);
             const diffSeconds = getTimestampInSeconds() - calledAtSeconds;
-            if (diffSeconds > 5 && keepTrying) {
+            if (diffSeconds > getBadStateThreshold() && keepTrying) {
               log(`keep trying (diffSeconds:${diffSeconds}).`);
               onConnectToDeviceButtonClick(deviceName, keepTrying, getTimestampInSeconds());
             } else {
